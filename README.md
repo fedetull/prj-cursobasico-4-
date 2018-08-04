@@ -7,58 +7,26 @@ Aplicacion para hacer el calculo de edad en base a la fecha de nacimiento ingres
 - Calculo de edad en base a fecha de nacimiento.
 - Diferencia de edad en base a la edad calculada y la anterior registrada.
 
-## Ejemplos
+## Como Usar
 
-Para realizar el calculo de edad debe presionar el boton CALCULAR EDAD
-prj-cursobasico-4-/Screenshot_20180804-001912.jpg
+Para Calcular edad
+
+1- Presionar el boton CALCULAR EDAD
+2- Se le presentara una pantalla con un selector de fecha.
+3- Debe seleccionar una fecha de nacimiento y pulsar el boton Aceptar.
+4- La APP le mostrara la edad.
+
+Para Calcular la diferencia de edad
+
+1- Debe haber calculado una edad primero. 
+2- Luego de tener una edad calculada, ingresa otra fecha de nacimiento y presiona el boton aceptar.
+3- La App le mostrara la diferecia de edad en base a la edad calculada y la anterior registrada.
 
 
-### Break down into end to end tests
+## Desarrollado con 
 
-Explain what these tests test and why
+* Android Studio - IDE utilizado.
 
-```
-Give an example
-```
+## Autor
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Luis Federico Tull**
