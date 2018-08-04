@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".SelectorEdad"
+    android:background="@drawable/fondo5">
+
+    <DatePicker
+        android:id="@+id/selectorFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:theme="@style/AlertDialog.AppCompat.Light"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:background="@android:color/darker_gray">
+    </DatePicker>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnsetEdad"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAceptar"
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/btncancel"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCancelar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

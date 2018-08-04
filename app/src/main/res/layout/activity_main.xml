@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/fondo5">
+
+    <TextView
+        android:id="@+id/txtSuEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/suEdad"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/txtDifEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/difEdad"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txDifEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnCalcularEdad"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strcalcularEdad"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

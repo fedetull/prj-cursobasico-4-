@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AgeCalc</string>
+    <string name="strcalcularEdad">Calcular Edad</string>
+    <string name="suEdad">Su edad</string>
+    <string name="difEdad">Diferencia de edad</string>
+    <string name="imagenDeFondo">Background</string>
+    <string name="strAceptar">Aceptar</string>
+    <string name="strCancelar">Cancelar</string>
+    <string name="strFelizCumple">Felicidades</string>
+</resources>
